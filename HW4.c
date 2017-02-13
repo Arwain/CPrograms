@@ -3,7 +3,7 @@
  * @author Arwain Giannini-Karlin
  * @date 2/9/2017
  *
- * The following program reads a data file of customer orders and organizes
+ * The following program reads a data file ("hw4input") of customer orders and organizes
  * the data. This program produces two files, one file of orders by time and
  * the other a file of orders by value.
  *
