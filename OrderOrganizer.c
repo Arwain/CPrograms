@@ -7,7 +7,6 @@
  * the data. This program produces two files, one file of orders by time and
  * the other a file of orders by value.
  *
- * HW4 - css333(Winter '17)
  *
  */
 
@@ -181,7 +180,7 @@ void writeTimeFile(struct customer customer1[MAX_CUSTOMERS]) {
     int customerCount, index;
     customerCount = 0;
     index = 0;
-    FILE *fileOut = fopen("hw4time.txt", "wb");
+    FILE *fileOut = fopen("time.txt", "wb");
     char name[MAX_LINE_LENGTH];
     strcpy(name, customer1[0].name);
     while (strcmp(name, "") != 0) {
@@ -261,7 +260,7 @@ void writeMoneyFile(struct customer customer1[MAX_CUSTOMERS]) {
     sortItemsByValue(customer1);
 
     // File is opened and formatted.
-    FILE *fileOut = fopen("hw4money.txt", "wb");
+    FILE *fileOut = fopen("money.txt", "wb");
     int customerCount, index;
     customerCount = 0;
     char name[MAX_LINE_LENGTH];
@@ -293,7 +292,7 @@ void writeMoneyFile(struct customer customer1[MAX_CUSTOMERS]) {
 int main(void) {
     struct customer customers[MAX_CUSTOMERS];
     // Open the file.
-    FILE *file = fopen("hw4input.txt", "rb");
+    FILE *file = fopen("input.txt", "rb");
     if (!file) {
         printf("Cannot open file.\n");
         return 1;
