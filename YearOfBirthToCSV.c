@@ -1,5 +1,7 @@
 /*
- * HW3 - CSS333(Winter17)
+ * The following program creates a csv file from Social Security year of birth lists.
+ * This program is currently formatted to create list of the 100 most popular names
+ * of the given year, however, this program could be modified to accomodate other outputs.
  *
  * @author - Arwain Giannini-Karlin
  * @last modification - 2/1/2017
