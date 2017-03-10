@@ -1,2 +1,2 @@
 # CPrograms
-A few random C programs from class...
+A few short C program examples
