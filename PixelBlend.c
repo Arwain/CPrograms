@@ -1,7 +1,6 @@
 /*
  * @author - Arwain Giannini-Karlin
  * @date - 1/25/2017
- * HW2
  *
  * The following program takes two images and creates a blended image
  * and a checkerboard image of the two.
